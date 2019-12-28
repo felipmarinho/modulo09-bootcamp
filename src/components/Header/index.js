@@ -17,7 +17,7 @@ export default function Header() {
         <aside>
           <Profile>
             <div>
-              <strong>Diego Fernandes</strong>
+              <strong>Felipe Marinho</strong>
               <Link to="/profile">Meu perfil</Link>
             </div>
             <img
