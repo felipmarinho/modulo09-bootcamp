@@ -1,4 +1,7 @@
 export function updateProfileRequest(data) {
+  console.tron.log(
+    `actions user: updateProfileRequest: ${JSON.stringify(data)}`
+  );
   return {
     type: '@user/UPDATE_PROFILE_REQUEST',
     payload: { data },
